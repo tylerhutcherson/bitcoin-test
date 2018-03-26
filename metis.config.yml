@@ -1,0 +1,11 @@
+project_token: 9c6f922f77f29fea7b33d519
+name: bitcoin-test
+jobs:
+  - job_id: 30b7c7e9-3a86-4ea7-be89-4982670bc940
+    language: python
+    name: Main
+    entrypoint: main.py
+    resources:
+      limits:
+        cpu: 6
+        memory: 2Gi
